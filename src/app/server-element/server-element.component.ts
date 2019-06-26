@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ServerElementComponent implements OnInit {
 
-  @Input() element: {type: string, name: string, content: string}
+  //6-66 assigns an alias; must bind to srvElement instead of element
+  @Input('srvElement') element: {type: string, name: string, content: string}
 
   constructor() { }
 
