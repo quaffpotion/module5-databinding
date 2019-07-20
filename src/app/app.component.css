@@ -2,6 +2,10 @@
   margin-top: 30px;
 }
 
+
+/* When we moved items to child components of the AppComponent angular says this
+no longer applies
 p {
   color: blue;
 }
+*/

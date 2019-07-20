@@ -1,0 +1,4 @@
+/* note, this will apply blue but the red overrides */
+p {
+  color: blue;
+}
