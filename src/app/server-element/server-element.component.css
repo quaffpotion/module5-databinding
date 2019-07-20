@@ -1,4 +1,6 @@
-/* note, this will apply blue but the red overrides */
-p {
-  color: blue;
+
+
+/* with ViewEncapsulation.None set this will be applied globally! */
+label {
+    color: greenyellow
 }
