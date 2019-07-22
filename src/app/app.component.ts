@@ -1,3 +1,5 @@
+//For the course version see folder: cmp-databinding-final
+
 import { Component } from '@angular/core';
 
 @Component({
