@@ -27,5 +27,14 @@ export class AppComponent {
       content: blueprintData.blueprintContent
     });
   }
+
+  onChangeFirst() {
+    this.serverElements[0].name = 'Changing inside object does trigger!' //constructor not called
+    // this.serverElements[0] = { type: "type", name: "assigning by object triggers constructor", content: "test" } //constructor is called
+    
+  }
+  onDestroyFirst() {
+    this.serverElements.splice(0,1)
+  }
   
 }
